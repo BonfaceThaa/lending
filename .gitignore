@@ -1,0 +1,25 @@
+# IDE files
+.idea
+
+# Backend
+# DLLs, binary and modules
+__pycache__/
+
+# data stores
+db.sqlite3
+
+# Frontend
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+package-lock.json
+
+# Testing
+/coverage
+
+# Production
+/build
+
+#Misc
+npm-debug.log*
