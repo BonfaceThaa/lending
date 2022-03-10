@@ -22,7 +22,7 @@ class Loan(models.Model):
     installment_amount = models.DecimalField(max_digits=10, decimal_places=2)
 
     def __str__(self):
-        return f'{self.customer.first_name} - {self.amount} - {self.category.name}'
+        return f'{self.id} - {self.customer} - {self.amount} - {self.category}'
 
 
 class CustomerLoan(models.Model):
